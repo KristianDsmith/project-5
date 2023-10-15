@@ -1,10 +1,11 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .models import UserProfile
+from .models import UserProfile, Wishlist, WishlistItem
 from .forms import UserProfileForm
-
+from products.models import Product
 from checkout.models import Order
+from django.http import JsonResponse
 
 
 @login_required
@@ -49,3 +50,47 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def view_wishlist(request):
+    """ Display the user's wishlist. """
+    wishlist = get_object_or_404(Wishlist, user=request.user)
+    wishlist_items = WishlistItem.objects.filter(wishlist=wishlist)
+    context = {
+        'wishlist_items': wishlist_items,
+    }
+    return render(request, 'profiles/wishlist.html', context)
+
+
+@login_required
+def add_to_wishlist(request, product_id):
+    """
+    Add a product to the user's wishlist
+    """
+    product = get_object_or_404(Product, pk=product_id)
+    wishlist, created = Wishlist.objects.get_or_create(user=request.user)
+
+    if WishlistItem.objects.filter(wishlist=wishlist, product=product).exists():
+        return JsonResponse({'success': False, 'message': 'This product is already in your wishlist!'})
+
+    WishlistItem.objects.create(wishlist=wishlist, product=product)
+
+    return JsonResponse({'success': True, 'message': f'Added {product.name} to your wishlist!'})
+
+
+@login_required
+def remove_from_wishlist(request, product_id):
+    """
+    Remove a product from the user's wishlist
+    """
+    product = get_object_or_404(Product, pk=product_id)
+    wishlist = get_object_or_404(Wishlist, user=request.user)
+    wishlist_item = get_object_or_404(
+        WishlistItem, wishlist=wishlist, product=product)
+    wishlist_item.delete()
+    messages.success(request, f'Removed {product.name} from your wishlist!')
+    return redirect('view_wishlist')
+
+
+

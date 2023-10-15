@@ -175,6 +175,82 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+/* Wishlist Container */
+.wishlist-container {
+    margin-top: 200px;
+    /* Adjust as needed */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    /* A light background for readability */
+    border-radius: 10px;
+    /* Optional rounded corners */
+}
+
+/* Wishlist Header */
+.wishlist-container h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #000;
+    /* Black text color */
+}
+
+/* Wishlist Items */
+.wishlist-container ul {
+    list-style-type: none;
+    /* Removing the default bullet points */
+    padding: 0;
+    color: #000;
+    /* Black text color */
+}
+
+.wishlist-container li {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    /* A light separator line between items */
+    display: flex;
+    /* To layout items horizontally */
+    justify-content: space-between;
+    /* Space out the product name and button */
+    align-items: center;
+}
+
+.wishlist-container li:last-child {
+    border-bottom: none;
+    /* Remove border for the last item */
+}
+
+.wishlist-container a {
+    color: #000;
+    /* Black text color */
+    text-decoration: none;
+    /* Removing underlines */
+    transition: color 0.3s;
+    /* Smooth color transition for hover effects */
+}
+
+.wishlist-container a:hover {
+    color: #555;
+    /* A slightly lighter black for hover */
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    /* Bootstrap red */
+    border: none;
+    border-radius: 5px;
+    /* Rounded corners for the button */
+    transition: background-color 0.3s;
+    /* Smooth color transition for hover effects */
+    color: #fff;
+    /* White text for the button */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    /* A darker red for hover */
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -268,6 +344,7 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+
 
 
 /* fixed top navbar only on medium and up */

@@ -99,6 +99,10 @@
                                 <span class="text-uppercase">Keep Shopping</span>
                             </a>
                             <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                            <a href="{% url 'add_to_wishlist' product.id %}"
+                                class="add-to-wishlist-btn btn btn-outline-secondary rounded-0 text-uppercase mt-5">
+                                Add to Wishlist
+                            </a>
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
@@ -113,4 +117,21 @@
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
+<script>
+    $(document).ready(function () {
+        $('.add-to-wishlist-btn').click(function (e) {
+            e.preventDefault(); // Prevent the default action of the <a> tag
+
+            var productId = $(this).attr('href');
+
+            $.get(productId, function (data) {
+                if (data.success) {
+                    alert('Product added to wishlist!');
+                } else {
+                    alert('There was an error. Maybe the product is already in the wishlist?');
+                }
+            });
+        });
+    });
+</script>
 {% endblock %}

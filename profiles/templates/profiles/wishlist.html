@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container mb-2 wishlist-container">
+    <!-- Add the 'wishlist-container' class here -->
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <!-- Center the content in the middle of the page -->
+            <h2>Your Wishlist</h2>
+            {% if wishlist_items %}
+            <ul>
+                {% for wishlist_item in wishlist_items %}
+                <li>
+                    <a href="{% url 'product_detail' wishlist_item.product.id %}">{{ wishlist_item.product.name }}</a>
+                    <a href="{% url 'remove_from_wishlist' wishlist_item.product.id %}"
+                        class="btn btn-danger btn-sm">Remove</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>Your wishlist is empty!</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
