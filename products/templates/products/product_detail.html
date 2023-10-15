@@ -111,6 +111,53 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+                <h3>Reviews:</h3>
+                {% for review in reviews %}
+                <div class="review">
+                    <strong>{{ review.user.username }}</strong>: {{ review.content }}<br>
+                    Rating: {{ review.rating }}
+                </div>
+                {% empty %}
+                <p>No reviews yet. Be the first to review this product!</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+                {% if request.user.is_authenticated %}
+                <h4>Submit a Review:</h4>
+                <form method="post" action="{% url 'add_review' product.id %}">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="reviewContent">Your Review:</label>
+                        <textarea name="content" class="form-control" id="reviewContent" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewRating">Rating:</label>
+                        <select name="rating" class="form-control" id="reviewRating">
+                            <option value="1">1 - Poor</option>
+                            <option value="2">2 - Fair</option>
+                            <option value="3">3 - Good</option>
+                            <option value="4">4 - Very Good</option>
+                            <option value="5">5 - Excellent</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Review</button>
+                </form>
+                {% else %}
+                <p>You must be logged in to submit a review. <a href="{% url 'account_login' %}">Login</a> or <a
+                        href="{% url 'account_signup' %}">Register</a>.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
 </div>
 {% endblock %}
 

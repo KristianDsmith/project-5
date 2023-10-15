@@ -5,7 +5,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 
-from .models import Product, Category
+from .models import Product, Category, Review
 from .forms import ProductForm
 
 # Create your views here.
@@ -67,9 +67,11 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    reviews = get_product_reviews(request, product_id)
 
     context = {
         'product': product,
+        'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -143,3 +145,31 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+def get_product_reviews(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    reviews = Review.objects.filter(product=product)
+    return reviews
+
+@login_required
+def add_review(request, product_id):
+    """ Add a review to a product """
+    product = get_object_or_404(Product, pk=product_id)
+
+    if request.method == 'POST':
+        # Logic to handle review submission
+        # For simplicity, you might just want to save the review directly
+        # But you can use Django forms to validate the data if preferred
+        content = request.POST.get('content')
+        rating = request.POST.get('rating')
+        user = request.user
+        review = Review(product=product, user=user,
+                        content=content, rating=rating)
+        review.save()
+        messages.success(request, 'Review added!')
+        return redirect(reverse('product_detail', args=[product.id]))
+
+    # If the request method is not POST, you can render a template to submit a review
+    # Or redirect the user back to the product detail page with a message
+    return render(request, 'products/add_review.html', {'product': product})
