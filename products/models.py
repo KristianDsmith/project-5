@@ -30,6 +30,9 @@ class Product(models.Model):
         max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+    spotify_sample_url = models.URLField(
+        max_length=1024, null=True, blank=True, verbose_name="Spotify Sample URL")
+    
 
     def __str__(self):
         return self.name
