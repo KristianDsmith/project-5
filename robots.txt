@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://roundhouse-records-29501f14b65f.herokuapp.com/sitemap.xml
