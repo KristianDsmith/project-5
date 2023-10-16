@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-%k#qw!v6a^fqxwj2&samadrg*m1#*8mpg=aodeq19e#sc1)e54
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kristiandsmith-project-5-x24nt7zo58.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-kristiandsmith-project-5-x24nt7zo58.us2.codeanyapp.com', 'roundhouse-records-29501f14b65f.herokuapp.com']
 
 
 # Application definition
@@ -82,7 +82,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by allauth
+                'django.template.context_processors.request',  
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
