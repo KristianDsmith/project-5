@@ -2,7 +2,6 @@ from django.db import models
 from django.conf import settings
 
 
-
 class Category(models.Model):
 
     class Meta:
@@ -32,7 +31,6 @@ class Product(models.Model):
     image = models.ImageField(null=True, blank=True)
     spotify_sample_url = models.URLField(
         max_length=1024, null=True, blank=True, verbose_name="Spotify Sample URL")
-    
 
     def __str__(self):
         return self.name

@@ -152,6 +152,7 @@ def get_product_reviews(request, product_id):
     reviews = Review.objects.filter(product=product)
     return reviews
 
+
 @login_required
 def add_review(request, product_id):
     """ Add a review to a product """
