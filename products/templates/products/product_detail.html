@@ -212,7 +212,7 @@
     </div>
 </div>
 
-{% endblock %} {% block postloadjs %} {{ block.super }} {% include
+ {% include
 'products/includes/quantity_input_script.html' %}
 <script>
   $(document).ready(function () {
@@ -233,4 +233,5 @@
     });
   });
 </script>
+{% endblock %} {% block postloadjs %} {{ block.super }}
 {% endblock %}
