@@ -212,7 +212,8 @@
     </div>
 </div>
 
-{% endblock %} {% block postloadjs %} {{ block.super }} 
+{% endblock %} {% block postloadjs %} {{ block.super }} {% include
+'products/includes/quantity_input_script.html' %}
 <script>
   $(document).ready(function () {
     $(".add-to-wishlist-btn").click(function (e) {
@@ -232,5 +233,4 @@
     });
   });
 </script>
-{% include'products/includes/quantity_input_script.html' %}
 {% endblock %}
