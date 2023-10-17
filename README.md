@@ -124,3 +124,46 @@ Facebook is essential for the store to be able to reach customers. According to 
 "Roundhouse Records" Facebook page is for marketing purposes to post adverts and exciting content and engage users.
 
 ![Roundhouse Records facebook Facebook Page Image](documentation/roundhouse-facebook.png)
+
+
+## Technologies used
+
+- ### Languages
+
+  - [Python 3.9.17](https://www.python.org/downloads/release/python-385/): the primary language used to develop the server-side of the website.
+  - [JS](https://www.javascript.com/): the primary language used to develop interactive components of the website.
+  - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+  - [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
+
+- ### Frameworks and libraries
+
+  - [Django](https://www.djangoproject.com/): python framework used to create all the logic.
+  - [jQuery](https://jquery.com/): was used to control click events and sending AJAX requests.
+  - [jQuery User Interface](https://jqueryui.com/) was used to create interactive elements.
+
+- ### Databases
+
+  - [elephantsql](https://www.elephantsql.com/): the database used to store all the data.
+  - [Amazon S3](https://s3.console.aws.amazon.com/): storage of static files and media files.
+
+- ### Other tools
+
+  - [Git](https://git-scm.com/): the version control system used to manage the code.
+  - [Pip3](https://pypi.org/project/pip/): the package manager used to install the dependencies.
+  - [Gunicorn](https://gunicorn.org/): the web server used to run the website.
+  - [Psycopg2](https://www.psycopg.org/): the database driver used to connect to the database.
+  - [Django-allauth](https://django-allauth.readthedocs.io/en/latest/): the authentication library used to create the user accounts.
+  - [Django-crispy-forms](https://django-cryptography.readthedocs.io/en/latest/): was used to control the rendering behavior of Django forms  
+  - [GitHub](https://github.com/): used to host the website's source code.
+  - [Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): was used to debug the website.
+  - [Font Awesome](https://fontawesome.com/): was used to create the icons used in the website.
+  - [W3C Validator](https://validator.w3.org/): was used to validate HTML5 code for the website.
+  - [W3C CSS validator](https://jigsaw.w3.org/css-validator/): was used to validate CSS code for the website.
+  - [JShint](https://jshint.com/): was used to validate JS code for the website.
+  - [PEP8](https://pep8.org/): was used to validate Python code for the website.
+  - [stripe](https://stripe.com/): was used to create the payment system.
+  - [Sitemap Generator](https://www.xml-sitemaps.com/) was used to create the sitemap.xml file.
+
+
+
+---
