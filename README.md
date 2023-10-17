@@ -19,3 +19,14 @@ I have had a very tight time constraint with only 4 weeks to complete this proje
 ![Music page](documentation/music-section.png)
 
 ![Streetwear section image](documentation/streetwear-section.png)
+
+### Target Audience
+
+This website is tailored for enthusiasts of the deep house music scene, those with a passion for unique streetwear, and vinyl collectors. Our core audience ranges from individuals seeking exclusive deep house records to those wanting to express their musical tastes through fashionable streetwear. Given the niche focus on deep house, we anticipate attracting dedicated music aficionados and those looking for a blend of style and sound. With features like limited edition releases, exclusive artist collaborations, and a curated selection of vinyl, our aim is to become a staple in the daily lives of deep house enthusiasts.  In a marketplace bustling with diverse products, we've prioritized user-friendly navigation to ensure our audience can easily find and purchase their desired items.
+
+### User Stories
+
+| Issue ID    | User Story |
+|-------------|-------------|
+| [#1](https://github.com/KristianDsmith/project-5/issues/1) | As a shopper I can view all list of productsso thatselect some to purchase |
+
