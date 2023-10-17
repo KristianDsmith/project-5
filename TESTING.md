@@ -34,3 +34,15 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | As a user I can add products to wishlist so that to purchase at an other time | Y | ![Whishlist](documentation/user-10.png) |
 | As a shopper I can listen to the music so thati can decide if i want to purchase the record or not | Y | ![Product detail](documentation/user-11.png) |
 | As a user I can write a review so that i can give feedback on products and the service | Y | ![Product reviews](documentation/user-12.png) |
+
+
+## Validation
+---
+
+## Lighthouse Report
+
+- [Full Lighthouse Report](documentation/lighthouse-test.png)
+
+- Lighthouse report was generated for every pages, using Chrome Dev Tools.
+
+---
