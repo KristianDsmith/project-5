@@ -176,3 +176,19 @@ Facebook is essential for the store to be able to reach customers. According to 
 ![Products Page Wireframe](documentation/products-page.png)
 
 ![Products Details Wireframe](documentation/product-details.png)
+
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
+---
+
+## Deployment and Payment setup
+
+- The app was deployed to [Heroku](https://heroku.com/).
+- The database was deployed to [ElephantSQL](https://www.elephantsql.com/).
+
+Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment and payment-related documentation.
+
+---
