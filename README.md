@@ -35,3 +35,24 @@ This website is tailored for enthusiasts of the deep house music scene, those wi
 | [#5](https://github.com/KristianDsmith/project-5/issues/5) | As a site user I can easily register for an accountso thathave a personal account and be able to view my profile |
 | [#6](https://github.com/KristianDsmith/project-5/issues/6) | As a user I can easily login and logoutso thataccess my personal account information |
 | [#7](https://github.com/KristianDsmith/project-5/issues/7) | As a user I can recover my password in case i forgetso thatrecover access to my account |
+| [#8](https://github.com/KristianDsmith/project-5/issues/8) | As a user I can receive an email confirmation after registeringso thatverify that my account registration is succesfull |
+ [#9](https://github.com/KristianDsmith/project-5/issues/9) | As a user I can have personalised user profileso thatview my personal order history |
+| [#10](https://github.com/KristianDsmith/project-5/issues/10) | As a user I can add products to wishlistso thatto purchase at an other time |
+| [#11](https://github.com/KristianDsmith/project-5/issues/11) | As a shopper I can listen to the musicso thati can decide if i want to purchase the record or not |
+| [#12](https://github.com/KristianDsmith/project-5/issues/12) | As a user I can write a reviewso thati can give feedback on products and the service |
+| [#13](https://github.com/KristianDsmith/project-5/issues/13) | As a shopper I can sort the list of available productsso thateasily identify the best rated and best priced products |
+| [#14](https://github.com/KristianDsmith/project-5/issues/14) | As a shopper I can sort by multiple categoryso thatfid best priced and rated across range of categories |
+[#15](https://github.com/KristianDsmith/project-5/issues/15) | As a shopper I can search for a product by nameso thatfind specific product i like to purchase |
+ [#16](https://github.com/KristianDsmith/project-5/issues/16) | Ass a shopper I can easily search what i have searched for and the number of resultsso that quickly decide wether the product i want is available |
+| [#17](https://github.com/KristianDsmith/project-5/issues/17) | Ass a shopper I can easily select the size and quantity of product when purchasingso thatensure i don't accidentally select the wrong size or quantity |
+| [#18](https://github.com/KristianDsmith/project-5/issues/18) | As a shopper I can view items in my bag to be purchasedso that indentify the total cost of my purchase and all tems i receive |
+| [#19](https://github.com/KristianDsmith/project-5/issues/19) | As a shopper I can adjust the quantity of individual items in my bagso thateasily make changes to my purchase |
+| [#20](https://github.com/KristianDsmith/project-5/issues/20) | As a shopper I can easily enter payment detailsso thatcheckout quickly and with no hassle |
+| [#21](https://github.com/KristianDsmith/project-5/issues/21) | As a shopper I can feel my personal and payment information is safe and secureso thatconfidently provide the needed information to make purchase |
+| [#22](https://github.com/KristianDsmith/project-5/issues/22) | As a shopper I can view order confirmation after checking outso thatverify that i haven't made a mistake |
+ [#23](https://github.com/KristianDsmith/project-5/issues/23) | As a shopper I can receive an email confirmation after checking outso thatkeep te confirmation of what i purchased for my records |
+| [#24](https://github.com/KristianDsmith/project-5/issues/24) | As a store owner I can add productso thatadd new items to my store |
+| [#25](https://github.com/KristianDsmith/project-5/issues/25) | As a store owner I can edit/update a productso thatchange product prices, descriptions, images, and other product criteria |
+| [#26](https://github.com/KristianDsmith/project-5/issues/26) | As a store owner I can delete productso thatremove items that are no longer for sale |
+| [#27](https://github.com/KristianDsmith/project-5/issues/13) | As a shopper I can sort the list of available productsso thateasily identify the best rated and best priced products |
+
