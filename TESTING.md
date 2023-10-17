@@ -24,14 +24,14 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | As a shopper I can view all list of products so that select some to purchase | Y | ![Products](documentation/user-1.png) |
 | As a shopper I can view a specific category of products so that quickly find products i am interested in. | Y | ![Products](documentation/user-2.png) |
 | As a shopper I can view individual product details so that identify price, description, product rating, product image, listen to sample music, available sizes | Y | ![Product Detail](documentation/user-3.png) |
-|As a First Time Visitor, I want to be able to find the app useful, so that I can use it according to my needs. | Y | ![Benefits](documentation/features/home/about_us_section_1.png) ![Benefits](documentation/features/home/about_section_2.png)|
-| As a First Time Visitor, I want to be informed clearly if I am making any errors when registering my account, so that I can be able to fix any errors quickly if I make some. | Y | ![Signup Page](documentation/features/allauth_access/sign_up.png) |
-| As a First Time Visitor, I want to be able to see the list of products, so that I can learn the benefits of the app as a user. | Y | ![Products](documentation/features/store/store_page.png) |
+|As a shopper I can easily view the total of my purchase at any timeso that avoid spending to much | Y | ![Checkout Total](documentation/user-4.png) 
+| As a site user I can easily register for an account so thathave a personal account and be able to view my profile | Y | ![Signup Page](documentation/user-5.png) |
+| As a user I can easily login and logout so that access my personal account information | Y | ![login logout](documentation/user-6.png) |
 
-| Frequent Visitor Goals    | Requirement met | Image |
+| User Goals    | Requirement met | Image |
 | ------------------------- | --------------- | ----- |
-| As a Regular User, I want to be able to access my account without having to log in every time, so that I can quickly buy a product that I need. | Y | ![Login Page](documentation/features/allauth_access/login.png) |
-| As a Regular User, I want to be sure that my account details are protected, so that I can safely make purchases. | Y | ![Login Page](documentation/features/footer/footer.png) |
+| As a user I can recover my password in case i forget so that recover access to my account | Y | ![Login Page](documentation/user-7.png) |
+| As a user I can add products to wishlist so that to purchase at an other time | Y | ![Login Page](documentation/user-10.png) |
 | As a Regular User, I want to be able to view my data, so that I can easily check my account details and past orders. | Y | ![My Orders](documentation/features/my_orders/my_orders_page.png) |
 | As a Regular User, I want to be able to add, edit, and save my address data, so that I can make an order faster. | Y | ![My addresses](documentation/features/my_addresses/my_addresses_page.png) |
 | As a Regular User, I want to be able to search products by category, tag, or text search, so that I can find a product faster., s a Regular User, I want to be able to sort products by category, so that I can find the best option to buy. | Y | ![Store Search](documentation/features/store/store_search_bar.png) |
