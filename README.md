@@ -29,4 +29,9 @@ This website is tailored for enthusiasts of the deep house music scene, those wi
 | Issue ID    | User Story |
 |-------------|-------------|
 | [#1](https://github.com/KristianDsmith/project-5/issues/1) | As a shopper I can view all list of productsso thatselect some to purchase |
-
+ [#2](https://github.com/KristianDsmith/project-5/issues/2) | As a shopper I can view a specific category of productsso thatquickly find products i am interested in |
+| [#3](https://github.com/KristianDsmith/project-5/issues/3) | As a shopper I can view individual product detailsso thatidentify price, description, product rating, product image, listen to sample music, available sizes |
+| [#4](https://github.com/KristianDsmith/project-5/issues/4) | As a shopper I can easily view the total of my purchase at any timeso thatavoid spending to much |
+| [#5](https://github.com/KristianDsmith/project-5/issues/5) | As a site user I can easily register for an accountso thathave a personal account and be able to view my profile |
+| [#6](https://github.com/KristianDsmith/project-5/issues/6) | As a user I can easily login and logoutso thataccess my personal account information |
+| [#7](https://github.com/KristianDsmith/project-5/issues/7) | As a user I can recover my password in case i forgetso thatrecover access to my account |
