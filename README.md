@@ -189,6 +189,21 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 - The app was deployed to [Heroku](https://heroku.com/).
 - The database was deployed to [ElephantSQL](https://www.elephantsql.com/).
 
-Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment and payment-related documentation.
+---
+
+## Credits
+
+- [Django](https://www.djangoproject.com/) for the framework.
+- [Django-allauth](https://django-allauth.readthedocs.io/) for the authentication library.
+- [Font awesome](https://fontawesome.com/): for the free access to icons.
+- [ElephantSQL](https://www.elephantsql.com/): for the free access to the database hosting service.
+- [Cloudinary](https://cloudinary.com/): for the free access to the image hosting service.
+- [jQuery](https://jquery.com/): for providing varieties of tools to make standard HTML code look appealing.
+- [jQuery UI](https://jqueryui.com/): for providing various tools to make interactive HTML code look appealing.
+- [Google Fonts](https://fonts.google.com/): for providing a free platform to use Google Fonts.
 
 ---
+
+## Acknowledgments
+
+- [Local Talk Records](https://localtalk.bandcamp.com/) For kidly allowing me to use there artwork and music for the roundhouse records website. thank yo so much for the support.
