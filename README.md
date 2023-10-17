@@ -115,3 +115,12 @@ Google Ads: For search-based advertising to attract potential buyers.
 Organic Social Media Growth: Regular posting, engaging with followers, and collaborating with micro-influencers.
 Community Engagement: Actively participating in music forums or communities.
 Referral Programs: Encouraging current customers to refer friends in exchange for discounts.
+
+
+3. Facebook
+
+Facebook is essential for the store to be able to reach customers. According to the statistics, the store has a good reach among people who prefer to use Facebook. Facebook has excellent coverage worldwide among people who can purchase products online.
+
+"Roundhouse Records" Facebook page is for marketing purposes to post adverts and exciting content and engage users.
+
+[Roundhouse Records facebook Facebook Page](documentation/roundhouse-facebook.png)
