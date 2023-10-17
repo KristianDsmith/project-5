@@ -123,4 +123,4 @@ Facebook is essential for the store to be able to reach customers. According to 
 
 "Roundhouse Records" Facebook page is for marketing purposes to post adverts and exciting content and engage users.
 
-[Roundhouse Records facebook Facebook Page](documentation/roundhouse-facebook.png)
+![Roundhouse Records facebook Facebook Page Image](documentation/roundhouse-facebook.png)
