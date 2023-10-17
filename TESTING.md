@@ -24,6 +24,14 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | 1           | Click on the logo | Redirection to home page | Y |          |
 | 2           | all products | Dropdown options | Y |          |
 | 3           | Click by price | Redirection to products page low to high | Y |          |
+
+
+
+
+
+
+
+| 3           |  |  | Y |          |
 | 4           | Click by rating | Redirection to products page low to high | Y |          |
 | 5           | Click all products | Redirection to Products page all products | Y |          |
 | 6           | Click on streetwear | dropdown options | Y |          |
