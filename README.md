@@ -56,3 +56,62 @@ This website is tailored for enthusiasts of the deep house music scene, those wi
 | [#26](https://github.com/KristianDsmith/project-5/issues/26) | As a store owner I can delete productso thatremove items that are no longer for sale |
 | [#27](https://github.com/KristianDsmith/project-5/issues/13) | As a shopper I can sort the list of available productsso thateasily identify the best rated and best priced products |
 
+
+## Web Marketing Strategy 
+
+1. Who are your users?
+
+Music enthusiasts and collectors.
+Fans looking for merchandise from specific artists or bands.
+Gift shoppers searching for unique music-related gifts.
+
+2. Which online platforms would you find lots of your users?
+
+Music forums and discussion boards.
+Websites like Pitchfork, Rolling Stone, or other music news and review platforms.
+Platforms like Bandcamp or Soundcloud where independent artists share music.
+
+3. Would your users use social media? If yes, which platforms do you think you would find them on?
+
+Instagram: For visual promotions of records, merchandise, and other products.
+Facebook: A great platform for community building and event promotion.
+Twitter: For real-time updates, news, and interactions.
+TikTok: Given the rise of music trends on TikTok, having a presence there could be beneficial.
+
+4. What do your users need? Could you meet that need with useful content?
+
+Updates on new releases and restocks.
+Information on artists, bands, and music trends.
+Music recommendations.
+
+Content Delivery:
+
+Blog Posts: Offering album reviews, artist spotlights, or music history pieces.
+Videos: Unboxings, behind-the-scenes looks, or interviews with artists.
+Playlists: Curated playlists based on moods, genres, or themes.
+
+5. Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
+
+Email Newsletters: Direct way to inform subscribers about promotions.
+Social Media Posts: Regular posts and stories about ongoing offers.
+Website Banners: Highlighting ongoing sales or special deals.
+
+6. What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
+
+Increase monthly sales.
+Build a loyal customer base.
+Establish Roundhouse Records as a go-to destination for music enthusiasts.
+
+Strategies:
+
+Affiliate Marketing: Collaborate with music influencers to promote your products.
+Content Marketing: Regularly publish engaging content to draw organic traffic.
+SEO: Optimize product listings and website content to rank higher on search engines.
+
+7. Would your business have a budget to spend on advertising? Or would it need to work with free or low-cost options to market itself?
+
+Paid Social Ads: Targeted ads on platforms like Instagram and Facebook.
+Google Ads: For search-based advertising to attract potential buyers.
+Organic Social Media Growth: Regular posting, engaging with followers, and collaborating with micro-influencers.
+Community Engagement: Actively participating in music forums or communities.
+Referral Programs: Encouraging current customers to refer friends in exchange for discounts.
