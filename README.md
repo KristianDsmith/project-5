@@ -167,3 +167,12 @@ Facebook is essential for the store to be able to reach customers. According to 
 
 
 ---
+
+
+### Wireframes
+
+![Homepage Wireframe](documentation/home-page.png)
+
+![Products Page Wireframe](documentation/products-page.png)
+
+![Products Details Wireframe](documentation/product-details.png)
